@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan", serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(210, 228, 245);
+    color: rgb(48, 87, 121);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.caixa-maior{
+background-color: aliceblue;
+color: black;
+padding: 60px;
+border-radius: 50px;
+
+}
+
+input{
+   outline: none;
+}
+
+.caixa-pequena {
+    display: flex;
+    align-items: center;
+
+}
+
+.btn-pesquisa {
+    background-color: rgb(184, 228, 215);
+    outline: none;
+    color: rgb(21, 53, 53) ;
+}
+
+.precisao {
+    text-transform: capitalize;
+}
+
+button {
+    cursor: pointer;
+}
